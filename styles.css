@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+header {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 5px 5px #d3d3d3;
+    font-family: 'Palette Mosaic', cursive;
+    color: red;
+}
+.panel {
+    margin-top: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}    
+h2 {
+    margin-top: 1rem;
+}
+.settings {
+    background-color: powderblue;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    padding-top: 0.1rem;
+}
+#sizeText {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 5rem;
+}
+
+.grid {
+    border: 2px solid #a8dadc;
+    border-radius: 1rem;
+    width: 70rem;
+    height: 70rem;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  /*This makes it so it doesnt have gaps between cells */ 
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  .box {
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+  }
+  #container {
+    padding: 0 2vw;
+  }
+  
+  .active {
+      background-color: royalblue;
+  }
+  .gridContainer {
+      display: flex;
+      justify-content: center;
+  }
+  .apply {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.apply:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.reset {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.reset:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}

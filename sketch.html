@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Etch-A-Sketch</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+
+<body>
+    <header>Etch-A-Sketch</header>
+    <main>
+        <div id="container">
+            <div class="settings">
+                <h2>Settings</h2>
+                <div class="panel">
+                    <input type="text" value="16 x 16" id="sizeText" readonly>
+                    <input id="slider" type="range" min="4" max="48" value="16">
+                    <button class="apply">Apply</button>
+                    <button class="reset">Reset</button>
+                </div>
+            </div>
+            <div class="gridContainer">
+                <div class="grid"></div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="sketch.js"></script>
+</body>
+</html> 
